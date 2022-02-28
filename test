@@ -7,7 +7,7 @@ Go, JWT, MongoDB
 xxxxx.yyyyy.zzzzz
 
 
-2. 
+2. Обновление - в формате base64, формат ASCII, английские буквы, цифры и 2 символа.
 
 What is the JSON Web Token structure?
 In its compact form, JSON Web Tokens consist of three parts separated by dots (.), which are:
