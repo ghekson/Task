@@ -9,6 +9,19 @@ xxxxx.yyyyy.zzzzz
 
 2. Обновление - в формате base64, формат ASCII, английские буквы, цифры и 2 символа.
 
+bcrypt хэширование пароля - хранение пароля
+
+
+$bcrypt = new Bcrypt(15);
+
+$hash = $bcrypt->hash('password');
+$isGood = $bcrypt->verify('password', $hash);
+
+
+
+
+
+
 What is the JSON Web Token structure?
 In its compact form, JSON Web Tokens consist of three parts separated by dots (.), which are:
 
